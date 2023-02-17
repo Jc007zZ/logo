@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 99vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+div#rasgo {
+    position: absolute;
+    rotate: 40deg;
+    background-color: rgb(233, 233, 233);
+    padding: 0px;
+    width: 3px;
+    height: 160px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233) ;
+    border-radius: 50%;
+    
+}
+
+div#circulo {
+ display: flex;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ border: 7px solid white;
+justify-content: center;
+align-items: center;
+}
+
+p#mai {
+    position: absolute;
+    font-size: 6.5rem;
+}
+
+p#min {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 65px;
+    font-size: 2.5rem;
+}
+
+p#zero {
+    display: flex;
+    rotate: -90deg;
+    margin-left: 35px;
+    margin-top: 30px;
+
+}
+
+
+
+div#cortecontain {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+div#corte { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 10px;
+    height: 30px;
+    margin-right: -8px;
+    font-size: 1rem;
+}
